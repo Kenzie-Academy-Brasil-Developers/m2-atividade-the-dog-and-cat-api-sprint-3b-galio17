@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
+.petContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pet {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pet__petImage {
+    height: 100%;
+}
